@@ -31,6 +31,10 @@ app.use(
           'https://raw.githubusercontent.com',
           'https://github.com'
         ],
+        // Permite el mapa de Google (iframe) en la sección de contacto
+        'frame-src': ["'self'", 'https://www.google.com', 'https://maps.google.com'],
+        // Permite el video del hero
+        'media-src': ["'self'", 'https://cdn.coverr.co'],
       },
     },
   })
